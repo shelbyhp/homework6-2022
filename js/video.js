@@ -48,7 +48,7 @@ document.querySelector("#mute").addEventListener("click", function () {
 		document.querySelector("#mute").innerHTML= "Unmute"}
 })
 
-document.querySelector("#volume").innerHTML = video.volume * 100 + "%"
+// document.querySelector("#volume").innerHTML = video.volume * 100 + "%"
 document.querySelector("#slider").oninput= function(){
 	console.log("video volume:" + video.volume)
 	// console.log(this.value)
